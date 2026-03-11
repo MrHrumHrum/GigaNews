@@ -178,7 +178,8 @@ fun NewsDetailsScreen(article: Article, onBack: () -> Unit) {
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(250.dp)
+                    .height(250.dp),
+                error = painterResource(id = R.drawable.ic_broken_image)
             )
 
             Spacer(modifier = Modifier.height(16.dp))
